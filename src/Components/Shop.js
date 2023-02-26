@@ -25,14 +25,14 @@ const Shop = ({ product }) => {
                   <p className="text-black">{products.description}</p>
                 </div>
               </span>
-              <button onClick={() => handleViewDetails(products)}> {" "} View Details{" "} </button>
+              <button className="bg-black text-white px-4 py-2 m-8 rounded-lg" onClick={() => handleViewDetails(products)}> {" "} View Details{" "} </button>
             </div>
           );
         })}
       </div>
       {selectedProduct && (
         <div className="flex flex-col items-center mt-2 h-16">
-        <button onClick={() => setSelectedProduct(null)}>Close</button>
+        <button className="bg-black text-white px-4 py-2 rounded-lg" onClick={() => setSelectedProduct(null)}>Close</button>
         <p className="text-red-600">Price: {selectedProduct.price}</p>
       </div>
       

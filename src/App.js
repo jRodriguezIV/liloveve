@@ -25,10 +25,6 @@ function App() {
 
   return (
     <div>
-      <h1> hello without tailwind </h1>
-      <h1 className="text-3xl font-bold underline">
-        Hello world! with tailwind{" "}
-      </h1>
       <main>
         <Shop product={product} />
       </main>

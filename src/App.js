@@ -25,6 +25,9 @@ function App() {
 
   return (
     <div>
+      <header>
+        <h1>Liloveve</h1>
+      </header>
       <main>
         <Shop product={product} />
       </main>

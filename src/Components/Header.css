@@ -1,0 +1,11 @@
+.header {
+    /* padding: 0px;
+    height: 20em; */
+    background-color: #C0C0C0;
+}
+
+.header h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}

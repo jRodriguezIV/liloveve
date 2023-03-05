@@ -1,11 +1,11 @@
 .header {
     /* padding: 0px;
     height: 20em; */
-    background-color: #C0C0C0;
 }
 
-.header h2 {
-    margin-top: 20px;
+.header h1 {
     text-align: center;
     color: black;
+    padding: 30px;
+    font-family: "EB Garamond",serif;
 }

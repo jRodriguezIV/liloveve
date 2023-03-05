@@ -1,0 +1,12 @@
+.navigation {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    text-align: center;
+    margin: auto 0;
+}
+
+.navigation li {
+    font-family: "EB Garamond",serif;
+    font-size: 12px;
+}
+

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Shop from "./Components/Shop";
+import Header from "./Components/Header";
 
 import "./App.css";
 
@@ -24,7 +25,8 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="body">
+      <Header/>
       <main>
         <Shop product={product} />
       </main>

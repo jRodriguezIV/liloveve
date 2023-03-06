@@ -12,7 +12,7 @@ export default function Home({ product }) {
       <div className="head">
         <h1>Best Sellers</h1>
         <button onClick={() => navigate('/shop')}>
-          Shop ALL Best Sellers
+          Shop All Best Sellers
           </button>
       </div>
 

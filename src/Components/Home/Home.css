@@ -43,6 +43,10 @@ padding: 0 50px 10px 50px;
     border-radius: 5%;
 }
 
+.img:hover {
+    transform: scale(1.05);
+}
+
 .carousel .foot p {
     margin: 5px 0 5px 10px;
 }

@@ -6,6 +6,8 @@
     padding-top: 30.25%; /* 56.25% is 16:9 aspect ratio */
     display: grid;
     place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner button {

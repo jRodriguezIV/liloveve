@@ -8,5 +8,6 @@
 .navigation li {
     font-family: "EB Garamond",serif;
     font-size: 12px;
+    list-style-type: none;
 }
 

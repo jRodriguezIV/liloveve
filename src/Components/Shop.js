@@ -4,24 +4,16 @@ import "./Shop.css";
 const Shop = ({ product }) => {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  function handleViewDetails(products) {
-    setSelectedProduct(products);
-  }
-
   return (
     <div>
       <h1> Shop </h1>
       <div className="product-grid">
-        {product.map((products) => {
+        {product.map((products, index) => {
           return (
-            <div key={products.id}>
+            <div className={index} key={products.id}>
               <span className="relative">
                 <img src={products.images[0]} alt={products.brand} />
               </span>
-              <button onClick={() => handleViewDetails(products)}>
-                {" "}
-                View Details{" "}
-              </button>
             </div>
           );
         })}

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Shop from "./Components/Shop";
 import Header from "./Components/Header";
+import Home from "./Components/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -26,10 +28,13 @@ function App() {
 
   return (
     <div className="body">
-      <Header/>
-      <main>
-        <Shop product={product} />
-      </main>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home product={product} />} />
+          <Route path="/shop" element={<Shop product={product} />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

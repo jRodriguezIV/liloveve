@@ -19,7 +19,8 @@
 ### 03/06/2023
 
 - Replaced the shop.js for displaying products
-- Replaced the shop.css from tailwind
+- Replaced the shop.css 
+- Added About Us
 
 
 ### Need To Do

@@ -16,6 +16,11 @@
 - added background features to Ariunaa's banner images
 
 
+### 03/06/2023
+
+- Replaced the shop.js for displaying products
+- Replaced the shop.css 
+- Added About Us
 
 
 ### Need To Do

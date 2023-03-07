@@ -18,6 +18,7 @@ function App() {
         .then((result) => result.json())
         .then((data) => {
           setProduct(data.products);
+          console.log(data.products)
         })
         .catch((error) => {
           console.error("Error fetching product data:", error);

@@ -1,0 +1,153 @@
+.footerWrapper {
+  box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 0.75);
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "part1 part2"
+    "fBanner fBanner";
+
+  padding: 40px 32px;
+  font-size: 70%;
+}
+
+.partition1 {
+  grid-area: part1;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  grid-template-areas: "helpp resources stores_services about .";
+}
+
+.partition1 > * {
+  padding: 15px;
+}
+
+.help {
+  grid-area: helpp;
+}
+
+.resources {
+  grid-area: resources;
+}
+
+.stores_services {
+  grid-area: stores_services;
+}
+
+.aboutUs {
+  grid-area: about;
+}
+
+.partition2 {
+  grid-area: part2;
+}
+
+.footerBanner {
+  grid-area: fBanner;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-areas: "shipping shipping . . . . terms privacy copyright emojis";
+
+  background-color: #ebe9e0;
+  font-size: 70%;
+  text-align: center;
+}
+
+.shipping {
+  grid-area: shipping;
+}
+
+.terms {
+  grid-area: terms;
+}
+
+.privacy {
+  grid-area: privacy;
+}
+
+.emojis {
+  grid-area: emojis;
+  font-size: medium;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  grid-area: copyright;
+}
+
+input {
+  padding: 10px;
+  width: 93%;
+  border-radius: none;
+  border: 1px solid grey;
+}
+
+@media screen and (max-width: 1000px) {
+  .footerWrapper {
+    display: block;
+    padding: 15px;
+  }
+  .partition1 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas: "helpp resources stores_services about";
+  }
+  .partition1 > * > * {
+    padding: 5px;
+    font-size: small;
+  }
+  input {
+    padding: 15px;
+  }
+
+  .partition2 {
+    margin-bottom: 25px;
+    margin-left: 20px
+  }
+  .footerBanner {
+    margin-bottom: 0;
+    padding-left: 25px;
+    padding-bottom: 0;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-areas: "shipping shipping terms privacy copyright emojis";
+  }
+  .shipping {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footerWrapper {
+        padding-left: 0;
+    }
+  .partition1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "helpp stores_services"
+      "resources about";
+  }
+  input {
+    width: 88%;
+    margin-top: 10px;
+  }
+  .footerBanner{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0,1fr));
+    grid-template-areas: 
+    "shipping shipping emojis"
+    "terms privacy copyright";
+    font-weight: 200;
+    padding-left: 13px;
+  }
+  .shipping {
+    text-align: left;
+    padding-left: 7px;
+  }
+  .terms {
+    text-align: left;
+    padding-left: 7px;
+  }
+}

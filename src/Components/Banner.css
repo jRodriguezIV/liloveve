@@ -1,0 +1,28 @@
+.banner {
+    background-image: url('../images/liloveve-banner.jpg');
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 30.25%; /* 56.25% is 16:9 aspect ratio */
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner button {
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* .box {
+    display: grid;
+    place-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #ccc;
+  } */

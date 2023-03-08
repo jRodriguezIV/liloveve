@@ -23,7 +23,7 @@ Install this repo with npm
 - Provide a smooth experience for the user
 - Maintain functionality and reduce bugs
 
-##### Project Duration : 2 - 3 
+##### Project Duration : 2 - 3 weeks
 ---
 
 ## Team Structure

@@ -15,7 +15,6 @@ Install this repo with npm
     
 ## Objectives
 
-
 - Showcase custom crafted fine jewelry
 - Renovate previous version of the website
 - Allow for online purchase possibility for store owner

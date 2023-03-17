@@ -10,38 +10,14 @@ export default function mainNav() {
       </div>
       <nav className="mainNavMenu__center">
         <ul className="mainNavMenu__center__list">
-          <h1>
-            {" "}
-            <li> EARRINGS </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> RINGS </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> NECKLACES </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> BRACELETS </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> WEDDING </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> MEN'S </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> BEST SELLERS </li>{" "}
-          </h1>
-          <h1>
-            {" "}
-            <li> SHOP ALL </li>{" "}
-          </h1>
+          <li> EARRINGS </li>
+          <li> RINGS </li>
+          <li> NECKLACES </li>
+          <li> BRACELETS </li>
+          <li> WEDDING </li>
+          <li> MEN'S </li>
+          <li> BEST SELLERS </li>
+          <li> SHOP ALL </li>
         </ul>
       </nav>
       <div className="mainNavMenu__right">

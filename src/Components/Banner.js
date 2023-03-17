@@ -1,9 +1,9 @@
-import "./Banner.css"
+import "./Banner.css";
 
-export default function Banner(){
-    return (
-        <div className="banner">
-            <button>Shop Now</button>
-        </div>
-    )
+export default function Banner() {
+  return (
+    <div className="banner">
+      <button>Shop Now</button>
+    </div>
+  );
 }
